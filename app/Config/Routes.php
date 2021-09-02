@@ -36,7 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->post('/get_voice', 'Home::process_text');
 $routes->post('/get_audio', 'Home::process');
 $routes->get('/get_languages', 'Home::get_languages');
-$routes->get('/describe_voices', 'Home::describe_voices');
+$routes->post('/describe_voices', 'Home::describe_voices');
 
 /*
  * --------------------------------------------------------------------

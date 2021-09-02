@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/projects/aws-tts/';
+	public $baseURL = 'http://192.168.0.108/projects/aws-tts/';
 
 	/**
 	 * --------------------------------------------------------------------------
